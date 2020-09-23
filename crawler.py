@@ -27,7 +27,7 @@ class SEcrawler():
 
         page = 0
         data = {}
-        while page < 20:
+        while page < 20 # fixed:
             element = driver.find_element_by_class_name('inteTable')
             tr_content = element.find_elements_by_tag_name("tr")
             for tr in tr_content:
