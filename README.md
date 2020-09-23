@@ -4,7 +4,7 @@ crawl exchange rate data with selenium and display json with flask
 usage:
 ```
 spyder = SEcrawler()
-data = spyder.crawler('USD') #latest 20 pages from esubank website's data of USD to TWD
+data = spyder.crawler('USD') # latest 20 pages from esubank website's data of USD to TWD
 print(data) # JSON format
 
 # other currencys for e.g. ['USD', 'CNY', 'AUD', 'EUR', 'HKD']
