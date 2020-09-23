@@ -1,5 +1,5 @@
 # simpleCrawler
-crawl exchange rate data with selenium and display json with flask
+crawl exchange rate data with selenium and return json format
 
 usage:
 ```
